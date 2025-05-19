@@ -1,3 +1,5 @@
+'use strict';
+
 let lang = prompt ('Choose your language/Выберите Ваш язык', 'ru/en/something');
 if (lang=='ru') {
     console.log('Понедельник, вторник, среда, четверг, пятница, суббота, воскресенье.')
